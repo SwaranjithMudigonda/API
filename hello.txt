@@ -3,3 +3,8 @@ AQ.fuckAb8RN6JyWOgtw7yqLYgG_rG02rNASrD2JSsliOOslgvchsplrA
 AQ.fuckAb8RN6KwP53W7pu6Tl7q8nnkmRXsndH3pMFdnbxbo5zJbqHtdg
 
 AQ.fuckAb8RN6IMWObjruMvCX50JjTH21rNIwuLnSSeKXoUUTxfl4LcXA
+
+
+powershell -Command "(Get-Item 'filename.pdf').CreationTime = '11/20/2026 10:00 AM'"
+powershell -Command "(Get-Item 'filename.pdf').LastWriteTime = '11/20/2026 10:00 AM'"
+powershell -Command "(Get-Item 'filename.pdf').LastAccessTime = '11/20/2026 10:00 AM'"
